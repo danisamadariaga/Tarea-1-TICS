@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“UTF-8”>
+		<!-- Damos estilo con CSS -->
+		<style>
+			#d1{
+				margin-left: 35%;
+				margin-right: 35%;
+			}
+			#d2i{
+				float: left;
+			}
+			#d2d{
+				float: right;
+			}
+			#d3{
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+			body {				
+				background-color : white;				
+				font-family : Helvetica
+			}
+
+		</style>
+		<!-- Titulo -->
+		<title> Carteras Abruzzi </title>
+		
+	</head>
+	<body>
+	<div id="d1" >
+		<div id="d2i">
+		<h3>
+			<img src="./bag1.jpg" align="left">
+		</h3>
+		</div>
+		<div id="d2d"
+		<h3>		
+			Carteras Abruzzi es un emprendimiento de carteras de cuero hechas a mano por una pareja de artesanos chilenos que desarrollan el rubro de la talabartería. El sistema de producción consiste en diseñar y armar carteras que son ofrecidas puerta a puerta en diferentes tiendas del sur de Chile.		
+		<br>
+		</h3>
+		</div>
+		<br>
+	</div>
+	<div id="d3">
+		<h3>
+			<ul>
+				Contáctanos
+				<li>Teléfono: +569999999999</li>
+				<li>Mail: carteras@abruzzi.cl</li>
+				<li>Facebook: fb.com/carterasabruzzi</li>
+			</ul>
+		</h3>
+	</div>
+	</body>
+</html>
