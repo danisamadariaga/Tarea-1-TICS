@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+	<?php session_start(); ?>
+	<title> Carteras Abruzzi </title>
+</head>
+<body>
+<?php 
+	if(isset($_POST['usuario'])&&isset($_POST['contrasena'])){
+		$password = 'password';
+		$user = 'user';
+		if($_POST['usuario']==$user && $_POST['contrasena']==$password){
+			echo "<h2> Bienvenido $user a Carteras Abruzzi </h2>";
+			echo "<br><a href='./inicioabruzzi.php'>Volver a inicio</a>";
+		}
+		else{
+			echo "Tu nombre de usuario y/o contraseña no coinciden.";
+			echo "<br><a href='./inicioabruzzi.php'>Volver a inicio</a>";
+		}
+	}
+	else{
+		echo "<h2>Acceso solo por inicio .</h2>";
+		echo "<br><a href='./inicioabruzzi.php'>Volver a inicio</a>";
+	
+	}
+		
+?>
+</body>
+</html>
