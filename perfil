@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Carteras Abruzzi </title>
+	<style>
+		#izquierda{width: 400px;
+                  height: 700px;
+                  margin: 10%;
+                  border: 1px solid black;
+                  background-color: white;
+                  float:left;
+                  }
+		#derecha{width: 400px;
+                  height: 700px;
+                  margin: 10%;
+                  border: 1px solid black;
+                  background-color: white;
+                  float:right;
+                  }
+	</style>
+		
+</head>
+<body>
+	<div id="izquierda">
+		<center>
+		<h1> Datos personales </h1> <br>
+		<img src="avatar.png" width="100" height="100"> <br>
+		<h3>
+		<b> Nombre completo: </b> <br> <br>
+		<b> Nombre usuario: </b> <br> <br>
+		<b> Fecha de nacimiento: </b> <br> <br>
+		<b> Sexo: </b> <br> <br>		
+		<b> Número de teléfono: </b> <br> <br>
+		<b> Correo: </b> <br> <br>
+		</h3>
+		</center>
+	</div>
+	
+	<div id="derecha">
+	<center>
+	<h1> Actualización de datos </h1> <br>
+	Nombre: <input type="text" name="nombre" /><br> <br>
+	Usuario: <input type="text" name="usuario" /><br> <br>
+	Fecha de nacimiento: <input type="date" name="bday"><br> <br>
+	Sexo: 
+
+	<input type="radio" name="genero" value="male"> Hombre<br>
+	<input type="radio" name="genero" value="female"> Mujer <br><br>
+
+	Teléfono: <input type="tel" name="telefono" /><br> <br>
+	Correo: <input type="email" name="correo" /><br> <br>
+	<input type="submit"/>	
+
+	</center>
+	</div>
+</body>
