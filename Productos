@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abruzzi</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<table align="center">
+		<tr>
+			<td width='350' align="center"><!--Imagen1-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+			<td width='350' align="center"><!--Imagen2-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+			<td width='350' align="center"><!--Imagen3-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td width='350' align="center"><!--Imagen4-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+			<td width='350' align="center"><!--Imagen5-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+			<td width='350' align="center"><!--Imagen6-->
+			<table border="1" heigt='50'>
+				<tr><img src='cartera1.png' height="200" width="200" />
+				</tr>
+				<tr>
+					<td align="center" width="50"><h6>Nombre de cartera</h6></td>
+					<td align="center" width='50'><h5>Precio</h5></td>
+					<td align="center" width='50'><h5>Detalle</h5></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+</body>	
