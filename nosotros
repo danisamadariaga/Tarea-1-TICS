@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset=“UTF-8”>
-		<!-- Damos estilo con CSS -->
+		<title> Carteras Abruzzi </title>
 		<style>
 			#d1{
 				margin-left: 35%;
@@ -24,7 +24,6 @@
 			}
 
 		</style>
-		<!-- Titulo -->
 		<title> Carteras Abruzzi </title>
 		
 	</head>
