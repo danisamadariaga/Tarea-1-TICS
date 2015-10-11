@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<?php session_start(); ?>
+	<title> Carteras abruzzi </title>
+</head>
+<body>
+	<div align="center">
+		<form action="./inicio.php" method="POST">
+			Nombre de Usuario: <input type="text" name="usuario"  placeholder='Usuario'/>
+			<br>
+			Contraseña: <input type="password" name="contrasena" placeholder='Contraseña'/>
+			<br>
+			<input type="submit" value="Iniciar Sesión"/>
+		</form>
+	</div>
+</body>
+</html>
