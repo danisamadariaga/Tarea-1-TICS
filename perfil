@@ -2,26 +2,29 @@
 <html>
 <head>
 	<title> Carteras Abruzzi </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<style>
 		#izquierda{width: 400px;
                   height: 700px;
-                  margin: 10%;
+                  margin: 35%;
                   border: 1px solid black;
                   background-color: white;
                   float:left;
                   }
 		#derecha{width: 400px;
                   height: 700px;
-                  margin: 10%;
+                  margin: 35%;
                   border: 1px solid black;
                   background-color: white;
                   float:right;
                   }
 	</style>
-		
 </head>
 <body>
-	<div id="izquierda">
+<?php include 'bienvenida.php';?>
+
+<br>Registro de pedidos anteriores:
+<div id="izquierda">
 		<center>
 		<h1> Datos personales </h1> <br>
 		<img src="avatar.png" width="100" height="100"> <br>
@@ -53,4 +56,8 @@
 
 	</center>
 	</div>
+
+
+<br><a href='./sesion.php'>Volver a inicio</a>
 </body>
+</html>
