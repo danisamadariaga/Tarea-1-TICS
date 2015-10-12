@@ -3,31 +3,10 @@
 	<head>
 		<meta charset=“UTF-8”>
 		<title> Carteras Abruzzi </title>
-		<style>
-			#d1{
-				margin-left: 35%;
-				margin-right: 35%;
-			}
-			#d2i{
-				float: left;
-			}
-			#d2d{
-				float: right;
-			}
-			#d3{
-				margin-left: 10%;
-				margin-right: 10%;
-			}
-			body {				
-				background-color : white;				
-				font-family : Helvetica
-			}
 
-		</style>
-		<title> Carteras Abruzzi </title>
-		
 	</head>
 	<body>
+	<?php include 'bienvenida.php';?>
 	<div id="d1" >
 		<div id="d2i">
 		<h3>
@@ -51,6 +30,14 @@
 				<li>Facebook: fb.com/carterasabruzzi</li>
 			</ul>
 		</h3>
+		<?php 
+		if($_SESSION['usuario']=='user'){
+			echo "<br><a href='./sesion.php'>Volver a inicio</a>";
+		}
+		else{
+		echo "<br><a href='./bienvenida.php'>Volver a inicio</a>";
+		}
+		?>
 	</div>
 	</body>
 </html>
