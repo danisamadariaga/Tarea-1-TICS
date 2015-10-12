@@ -7,9 +7,16 @@
 <body>
 	<div align="right"> 
 	<table border='1'>
-		<td align="center" width='100' height='50'>
-			<h5><u>Ingresar</u></h5>
-		</td>
+		<tr>
+			<td align="center" width='100' height='50'>
+				<h5><u>Regístrate</u></h5>
+			</td>
+			<td align="center" width='100' height='50'>
+				<h5><u>Tu Perfil</u></h5>
+			</td>
+			<td align="center" width='100' height='50'> <img src='carrito.png' height="50" width="50">
+			</td>
+			</tr>
 	</table>
 	</div>
 	<div align="center">
@@ -19,8 +26,13 @@
 		<tr>
 		<!-- faltan las imágenes-->
 			<td> <img src='cartera1.png' height="200" width="200" /></td>
-			<td align="center" width='300'><h1><strong><u>    Abruzzi    </u></strong></h1>
-			<h4>Improving your Rute</h4></td>
+			<td align="center" width='600'>
+				<table>
+				<tr><h1><strong><u>    Abruzzi    </u></strong></h1></tr>
+				<tr><h4>Improving your Rute</h4></tr>
+				<tr><input type="text" name="buscador de carteras"  placeholder='buscador de productos'/></tr>
+				</table>
+			</td>
 			<td> <img src='cartera2.png' height="200" width="200" /></td>
 		</tr>
 	</table>
@@ -31,7 +43,7 @@
 	<!--aquí van los enlaces a cada página-->
 			<td align="center" width='400'> <h2>Productos</h2></td>
 			<td align="center" width='400'><h2>¿Quiénes Somos?</h2></td>
-			<td align="center" width='400'> <h2>Tu Perfil</h2></td>
+			<td align="center" width='400'> <h2>Diseña tu cartera</h2></td>
 	</table>
 	</div>
 </body>
