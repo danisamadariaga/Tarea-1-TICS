@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Abruzzi</title>
+	<title> Carteras Abruzzi </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-	<table align="center">
+<?php include 'bienvenida.php';?>
+<h2> Productos </h2>
+<br> Aquí debería filtrarse por producto
+
+<table align="center">
 		<tr>
 			<td width='350' align="center"><!--Imagen1-->
 			<table border="1" heigt='50'>
@@ -76,4 +80,14 @@
 			</table>
 			</td>
 		</tr>
-</body>	
+<br>
+<?php
+if($_SESSION['usuario']=='user'){
+	echo "<br><a href='./sesion.php'>Volver a inicio</a>";
+		}
+else{
+	echo "<br><a href='./bienvenida.php'>Volver a inicio</a>";
+}
+?>
+</body>
+</html>
