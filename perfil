@@ -3,17 +3,18 @@
 <head>
 	<title> Carteras Abruzzi </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Damos estilo para generar 2 bloques, el primero corresponde a la información del usuario y el segundo permite actualizar sus datos -->
 	<style>
 		#izquierda{width: 400px;
                   height: 700px;
-                  margin: 35%;
+                  margin: 10%;
                   border: 1px solid black;
                   background-color: white;
                   float:left;
                   }
 		#derecha{width: 400px;
                   height: 700px;
-                  margin: 35%;
+                  margin: 10%;
                   border: 1px solid black;
                   background-color: white;
                   float:right;
@@ -21,10 +22,13 @@
 	</style>
 </head>
 <body>
-<?php include 'bienvenida.php';?>
+	<?php include 'bienvenida.php';?>
 
-<br>Registro de pedidos anteriores:
-<div id="izquierda">
+	<!-- Sección en la cual en el futuro irá un registro de pedidos para tener una estadística detallada-->
+	<br>Registro de pedidos anteriores:
+	
+	<!-- Se genera la información de usuario -->
+	<div id="izquierda">
 		<center>
 		<h1> Datos personales </h1> <br>
 		<img src="avatar.png" width="100" height="100"> <br>
@@ -39,25 +43,23 @@
 		</center>
 	</div>
 	
+	<!-- Se genera la actualización de los datos de usuario -->
 	<div id="derecha">
-	<center>
-	<h1> Actualización de datos </h1> <br>
-	Nombre: <input type="text" name="nombre" /><br> <br>
-	Usuario: <input type="text" name="usuario" /><br> <br>
-	Fecha de nacimiento: <input type="date" name="bday"><br> <br>
-	Sexo: 
+		<center>
+		<h1> Actualización de datos </h1> <br>
+		Nombre: <input type="text" name="nombre" /><br> <br>
+		Usuario: <input type="text" name="usuario" /><br> <br>
+		Fecha de nacimiento: <input type="date" name="bday"><br> <br>
+		Sexo: <input type="radio" name="genero" value="male"> Hombre<br>
+		      <input type="radio" name="genero" value="female"> Mujer <br><br>
+		Teléfono: <input type="tel" name="telefono" /><br> <br>
+		Correo: <input type="email" name="correo" /><br> <br>
+		<input type="submit"/>	
 
-	<input type="radio" name="genero" value="male"> Hombre<br>
-	<input type="radio" name="genero" value="female"> Mujer <br><br>
-
-	Teléfono: <input type="tel" name="telefono" /><br> <br>
-	Correo: <input type="email" name="correo" /><br> <br>
-	<input type="submit"/>	
-
-	</center>
+		</center>
 	</div>
 
-
-<br><a href='./sesion.php'>Volver a inicio</a>
+	<!-- Link para volver a la página de inicio de Abuzzi -->
+	<br><a href='./sesion.php'>Volver a inicio</a>
 </body>
 </html>
