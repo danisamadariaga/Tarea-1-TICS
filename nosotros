@@ -34,6 +34,7 @@
 				<li>Facebook: fb.com/carterasabruzzi</li>
 			</ul>
 		</h3>
+		<!-- Revisa al volver si se ha iniciado sesion o no -->
 		<?php 
 		if($_SESSION['usuario']=='user'){
 			echo "<br><a href='./sesion.php'>Volver a inicio</a>";
