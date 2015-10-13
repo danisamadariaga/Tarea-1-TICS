@@ -6,7 +6,10 @@
 
 	</head>
 	<body>
+	<!-- Función include que mantiene el formato y estilo de la página-->
 	<?php include 'bienvenida.php';?>
+
+<!-- Información -->
 	<div id="d1" >
 		<div id="d2i">
 		<h3>
@@ -22,6 +25,7 @@
 		<br>
 	</div>
 	<div id="d3">
+	<!-- Contacto -->
 		<h3>
 			<ul>
 				Contáctanos
