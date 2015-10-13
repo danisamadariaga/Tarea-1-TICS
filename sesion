@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+<!--Página de bienvenida una vez se inicia sesion-->
 <head>
 	<title> Carteras Abruzzi </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--Se fija estilo en CSS-->
 		<style>
 			#d1{
 				margin-left: 35%;
@@ -27,6 +29,7 @@
 	<?php session_start(); ?>
 </head>
 <body>
+<!--Carrito de compras junto a link al perfil puesto que ya inició sesión-->
 	<div align="right"> 
 	<table border='1'>
 		<tr>
@@ -44,9 +47,9 @@
 	<div align="center">
 <br>
 <br>
+<!-- Banner -->
 	<table>
 		<tr>
-		<!-- faltan las imágenes-->
 			<td> <img src='cartera1.png' height="200" width="200" /></td>
 			<td align="center" width='600'>
 				<table>
@@ -62,7 +65,7 @@
 <br>
 <br>
 	<table border='3'>
-	<!--aquí van los enlaces a cada página-->
+	<!--Aquí van los enlaces a cada página-->
 			<td align="center" width='400'> <h2><a href='./catalogo.php'>Productos</a></h2></td>
 			<td align="center" width='400'><h2><a href='./nosotros.php'>¿Quiénes somos?</a></h2></td>
 			<td align="center" width='400'> <h2>Diseña tu cartera</h2></td>
