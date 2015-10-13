@@ -6,21 +6,25 @@
 </head>
 <body>
 <?php 
+<!--Flujo condicional que permite ver si se ha iniciado sesion o no-->
 	if(isset($_POST['usuario'])&&isset($_POST['contrasena'])){
 		$password = 'password';
 		$user = 'user';
+		<!--Comprobar si los datos ingresados son correctos-->
 		if($_POST['usuario']==$user && $_POST['contrasena']==$password){
 			session_start();
 			$_SESSION['usuario']= $user; 
-			echo "<h2> Bienvenido $user a Carteras Abruzzi </h2>";
+			<!--Redireccionar a la pagina principal-->
 			header('Location: sesion.php');			
 			
 		}
+		<!--Si no, redirecciona al formulario-->
 		else{
 			echo "Tu nombre de usuario y/o contraseña no coinciden.";
 			echo "<br><a href='./inicioabruzzi.php'>Volver a inicio</a>";
 		}
 }
+<!--Cualquier otro intento de acceder manda al formulario-->
 	else{
 	echo "<h2>Acceso solo por inicio</h2>";
 		echo "<br><a href='./inicioabruzzi.php'>Volver a inicio</a>";	
