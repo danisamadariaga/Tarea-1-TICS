@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div align="center">
+	<!-- Formulario de inicio de sesión que envía información a inicio.php-->
 		<form action="./inicio.php" method="POST">
 			Nombre de Usuario: <input type="text" name="usuario"  placeholder='Usuario'/>
 			<br>
