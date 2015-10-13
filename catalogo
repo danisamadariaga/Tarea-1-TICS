@@ -8,7 +8,7 @@
 <?php include 'bienvenida.php';?>
 <h2> Productos </h2>
 <br> Aquí debería filtrarse por producto
-
+<!-- Tablas para las carteras -->
 <table align="center">
 		<tr>
 			<td width='350' align="center"><!--Imagen1-->
@@ -81,6 +81,8 @@
 			</td>
 		</tr>
 <br>
+
+<!-- Revisa al volver si ha iniciado o no sesión -->
 <?php
 if($_SESSION['usuario']=='user'){
 	echo "<br><a href='./sesion.php'>Volver a inicio</a>";
