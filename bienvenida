@@ -3,6 +3,7 @@
 <head>
 	<title> Carteras Abruzzi </title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--Se fija estilo en CSS-->
 			<style>
 			#d1{
 				margin-left: 35%;
@@ -27,6 +28,7 @@
 	<?php session_start(); ?>
 </head>
 <body>
+<!--Perfil envía al inicio de sesión-->
 	<div align="right"> 
 	<table border='1'>
 		<tr>
@@ -44,9 +46,9 @@
 	<div align="center">
 <br>
 <br>
+<!-- Banner -->
 	<table>
 		<tr>
-		<!-- faltan las imágenes-->
 			<td> <img src='cartera1.png' height="200" width="200" /></td>
 			<td align="center" width='600'>
 				<table>
